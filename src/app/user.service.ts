@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Guidy } from "./Guidy";
+import { Guidy } from "./data/Guidy";
 
 @Injectable()
 export class UserService

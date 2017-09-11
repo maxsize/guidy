@@ -1,4 +1,4 @@
-import { Component } from "@angular/core/core";
+import { Component } from "@angular/core";
 
 @Component({
     selector: 'startup',
