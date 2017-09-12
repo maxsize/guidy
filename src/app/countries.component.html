@@ -1,5 +1,8 @@
 <div>
     <ul>
-        <li *ngFor="let c in countries">{{c.name}}</li>
+        <li *ngFor="let c of countries">
+            <!-- <a routerLink="/country">{{c.name}}</a> -->
+            <a (click)="toCountry(c.id)">{{c.name}}</a>
+        </li>
     </ul>
 </div>

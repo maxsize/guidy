@@ -1,0 +1,13 @@
+<div *ngIf="att">
+    <div>
+            <h2>{{att.name}}</h2>
+            <div>{{att.description}}</div>
+        </div>
+        <div>
+            <ul>
+                <li *ngFor="let gId for att.guides">
+                    <span>{{gId}}</span>
+                </li>
+            </ul>
+        </div>
+</div>

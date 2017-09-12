@@ -1,4 +1,4 @@
-import { Country } from "./Country";
+import { Country } from "../data/Country";
 import { Injectable } from "@angular/core";
 
 @Injectable()
