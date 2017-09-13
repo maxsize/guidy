@@ -10,10 +10,11 @@ import { CountriesComponent } from './countries.component';
 import { CountryComponent } from './country.component';
 import { AttractionService } from './service/attraction.service';
 import { AttractionComponent } from './attraction.component';
+import { AttractionItemComponent } from './attraction-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent, StartupComponent, CountriesComponent, CountryComponent, AttractionComponent
+    AppComponent, StartupComponent, CountriesComponent, CountryComponent, AttractionComponent, AttractionItemComponent
   ],
   imports: [
     BrowserModule, AppRoutingModule

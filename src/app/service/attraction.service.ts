@@ -5,7 +5,7 @@ import { Attraction } from "../data/Attraction";
 @Injectable()
 export class AttractionService
 {
-    getAttraction(attId:Number)
+    getAttraction(attId:Number):Promise<Attraction>
     {
         return new Promise(resolve => resolve(MOCK_ATTS.find(a => a.id == attId)));
     }

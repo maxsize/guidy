@@ -14,7 +14,6 @@ export class AttractionComponent implements OnInit
     constructor(private service:AttractionService, private route:ActivatedRoute){}
 
     ngOnInit(): void {
-        // this.route.paramMap
-        // this.service.getAttraction()
+        this.route.paramMap.subscribe(param => this.service.getAttraction(+param.get("id")).then(a => this.att = a))
     }
 }
