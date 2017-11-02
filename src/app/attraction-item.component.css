@@ -1,0 +1,18 @@
+.att-item{
+    color:white;
+    position: relative;
+    border: 1px solid #000000;
+    width: 351px;
+    height: 234px;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+.title{
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 0;
+}

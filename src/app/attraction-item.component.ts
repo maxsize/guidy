@@ -5,7 +5,8 @@ import { ActivatedRoute, Router } from "@angular/router";
 
 @Component({
     selector: 'attraction-item',
-    templateUrl: './attraction-item.component.html'
+    templateUrl: './attraction-item.component.html',
+    styleUrls:['./attraction-item.component.css']
 })
 export class AttractionItemComponent implements OnInit
 {

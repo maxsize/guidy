@@ -1,4 +1,4 @@
-<div *ngIf="att" (click)="toAttraction(att.id)">
-    <div>{{att.name}}</div>
-    <div>{{att.description}}</div>
+<div class="att-item" *ngIf="att" (click)="toAttraction(att.id)">
+    <img src="{{att.thumb}}" alt="{{att.description}}">
+    <div class="title"><strong>{{att.name}}</strong></div>
 </div>

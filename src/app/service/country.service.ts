@@ -17,6 +17,6 @@ export class CountryService
 
 export const MOCK_COUNTRIES:Country[] = [
     {id:1, name:"Canada", attractions:[2]},
-    {id:2, name:"China", attractions:[3, 4]},
+    {id:2, name:"China", attractions:[3, 4, 5, 6]},
     {id:3, name:"America", attractions:[1]},
 ]

@@ -2,7 +2,8 @@ import { BasicData } from "./BasicData";
 
 export class Attraction extends BasicData
 {
-    description:String;
-    tags:String[];
+    description:string;
+    thumb:string;
+    tags:string[];
     guides:Number[];
 }
